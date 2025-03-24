@@ -62,6 +62,16 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       >
         Contact
       </a>
+      <a
+        href="https://cdn.glitch.global/adff8d71-510c-4e7b-b823-09d50623ae49/resume.pdf?v=1742822161727"
+        onClick={() => setMenuOpen(false)}
+        className={`text-2xl font-semibold text-blue-500 my-4 transform transition-transform duration-300
+            ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+          }        
+    `}
+      >
+        Resume
+      </a>
     </div>
   );
 };

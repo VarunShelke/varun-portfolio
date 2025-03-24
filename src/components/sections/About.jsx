@@ -1,9 +1,27 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontendSkills = ["React","Vue","TypeScript","TailwindCSS"];
+  const frontendSkills = [
+    "HTML",
+    "CSS",
+    "React",
+    "Vue",
+    "TypeScript",
+    "TailwindCSS",
+    "Bootstrap",
+  ];
 
-  const backendSkills = ["Java", "Node.js", "GraphQL", "MYSQL", "Python"];
+  const backendSkills = [
+    "Java",
+    "Spring Boot",
+    "SAP Commerce Cloud",
+    "Fluent Commerce",
+    "Groovy",
+    "Node.js",
+    "GraphQL",
+    "MYSQL",
+    "Python",
+  ];
 
   return (
     <section
@@ -11,7 +29,7 @@ export const About = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="max-w-3xl mx-auto px-4">
+        <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
             About Me
@@ -63,11 +81,17 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> M.S. in Information Science </strong> - University of Pittsburgh (2024-2026)
+                  <strong> M.S. in Information Science </strong> - University of
+                  Pittsburgh (2024-2026)
                 </li>
+                <ul>
+                  <li>
+                    Relevant Coursework: Data Structures, Web Development, Cloud
+                    Computing...
+                  </li>
+                </ul>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  <strong>B.E. in Computer Engineering </strong> - University of Pune (2016 - 2020)
                 </li>
               </ul>
             </div>
@@ -77,22 +101,26 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Software Engineer at Nagarro (2022 - 2024){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                    Led Fluent OMS implementation, reducing order cancellations
+                    by 85%, enhancing stock accessibility 10x, cutting delivery
+                    costs by 22%, automating shipping to lower freight costs by
+                    20%, and reducing production incidents by 75%.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Programmer Analyst at Cognizant (2020 - 2022){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    Implemented a seamless Salesforce CRM and SAP Commerce Cloud
+                    integration, optimized database structures, automated
+                    product data import, and enhanced code quality with robust
+                    testing and SonarQube issue resolution.
                   </p>
                 </div>
               </div>

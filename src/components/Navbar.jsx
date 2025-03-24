@@ -49,6 +49,14 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {" "}
               Contact{" "}
             </a>
+            <a
+              href="https://cdn.glitch.global/adff8d71-510c-4e7b-b823-09d50623ae49/resume.pdf?v=1742822161727"
+              className="text-blue-500 hove:text-white transition-colors"
+              target="_blank"
+            >
+              {" "}
+              <strong>Resume{" "}</strong>
+            </a>
           </div>
         </div>
       </div>
